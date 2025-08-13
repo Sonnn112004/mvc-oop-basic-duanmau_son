@@ -5,7 +5,7 @@
 <div class="products">
     <?php foreach($products as $product): ?>
     <div class="product">
-        <img src="<?php echo $product['img']; ?>" alt="">
+        <img src="uploads/imgproduct/<?php echo $product['image']; ?>" alt="" width="100px">
         <h3><?php echo $product['name']; ?></h3>
         <p><?php echo number_format($product['price']); ?> VNĐ</p>
         <p><?php echo $product['description']; ?></p>
